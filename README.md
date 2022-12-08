@@ -52,3 +52,15 @@ If you are only creating one use case, this process is probably easier.
 4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the [*Licensing info*](https://github.com/CiscoDevNet/code-exchange-repo-template/tree/master/manual-sample-repo#licensing-info) section of this README for more info. 
 5. Delete these instructions and everything up to the _Project Title_ from the README.
 6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
+
+
+## Automated Use Case
+Remote observance is especially useful for offices, for example, and remote observance is in demand due to the fact that we are transitioning towards a hybrid work experience. Moreover, in our use case, there is a bee hive located at the office. For safety reasons, bee hive inspections have to be done with two or more people. In the unlikely event of an accident, the second person can provide assistance or call the emergency services. However, since fewer people are attending the office, it is sometimes inconvenient to have two people doing the inspection. Therefore, we have created a process and integation that allows us to conduct remote observance, where one team member can do the bee hive inspection alone, while team members observe the site remotely and can contact assistance if needed.
+
+In addition to remote observance, the team would also like to monitor the honey bee colony. For this PoV, we have installed three Meraki MV cameras and a BEEP base, which encompasses multiple sensors to monitor a bee hive colony. We have created a bot that would interact during the remote observance process, but we have added features that allows the users to generate snapshots from the Meraki cameras or query the latest metric, e.g. temperature, humidity, weight, etc.
+
+Related Code Repo B:  [LInk B >](/codeexchange/github/repo/hhxiao/gve_devnet_meraki_alert_webex_bot_notification/)
+
+Related Code Repo C:  [LInk C >](/codeexchange/github/repo/hhxiao/gve_devnet_meraki_alert_webex_bot_notification/)
+
+Related Code Repo D:  [LInk D >](/codeexchange/github/repo/hhxiao/gve_devnet_meraki_alert_webex_bot_notification/)
